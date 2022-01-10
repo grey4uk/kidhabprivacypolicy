@@ -1,0 +1,181 @@
+ul,
+ol,
+dl {
+    text-decoration: none;
+    padding: 20px 0 20px 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p:not(:last-child) {
+    margin-bottom: 20px
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+table {
+    padding: 40px 0;
+}
+
+.wrapper {
+    width: 100vw;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.alertText {
+    color: red;
+    margin: 0 10px;
+}
+
+.boldText {
+    font-weight: 700;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarItem {
+    transition: transform .2s;
+}
+
+.sidebarItem:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.sidebarItem:hover {
+    transform: scale(1.1);
+}
+
+.linkList {
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.linkToItem:hover {
+    color: blue;
+}
+
+.content {
+    width: 80vw;
+    padding: 10px;
+}
+
+.documentTitle {
+    text-align: center;
+    align-items: center;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.startText {
+    padding: 20px 0;
+}
+
+.languageSelect {
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.list {
+    padding: 20px 0 20px 20px;
+}
+
+.leftPaddingList {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.underlinedText {
+    text-decoration: underline;
+}
+
+th {
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+th:not(:last-child) {
+    border-right: none;
+}
+
+.yellowBack {
+    background-color: yellow;
+}
+
+@media (max-width: 767px) {
+
+    .wrapper {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .table {
+        display: grid;
+        width: 90vw;
+        grid-template-columns: 20vw 20vw 40vw;
+        grid-template-areas:
+            'column-1 column-2 column-3';
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 20vw;
+        padding: 20px;
+        font-size: 18px;
+        justify-content: center;
+    }
+
+    .linkList {
+        width: 15vw;
+        padding: 20px;
+        position: fixed;
+        list-style: none;
+    }
+
+    .content {
+        width: 60vw;
+        padding: 40px 0;
+    }
+
+    .table {
+        display: grid;
+        grid-template-columns: 15vw 15vw 25vw;
+        grid-template-areas:
+            'column-1 column-2 column-3';
+    }
+}
