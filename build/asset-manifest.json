@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kidhabprivacypolicy/static/css/main.3c5a9576.chunk.css",
-    "main.js": "/kidhabprivacypolicy/static/js/main.acf29206.chunk.js",
-    "main.js.map": "/kidhabprivacypolicy/static/js/main.acf29206.chunk.js.map",
-    "runtime-main.js": "/kidhabprivacypolicy/static/js/runtime-main.14e71a87.js",
-    "runtime-main.js.map": "/kidhabprivacypolicy/static/js/runtime-main.14e71a87.js.map",
-    "static/js/2.a3c0fa4c.chunk.js": "/kidhabprivacypolicy/static/js/2.a3c0fa4c.chunk.js",
-    "static/js/2.a3c0fa4c.chunk.js.map": "/kidhabprivacypolicy/static/js/2.a3c0fa4c.chunk.js.map",
-    "index.html": "/kidhabprivacypolicy/index.html",
-    "static/css/main.3c5a9576.chunk.css.map": "/kidhabprivacypolicy/static/css/main.3c5a9576.chunk.css.map",
-    "static/js/2.a3c0fa4c.chunk.js.LICENSE.txt": "/kidhabprivacypolicy/static/js/2.a3c0fa4c.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.3c5a9576.chunk.css",
+    "main.js": "/static/js/main.b73e4844.chunk.js",
+    "main.js.map": "/static/js/main.b73e4844.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2edb704a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2edb704a.js.map",
+    "static/js/2.02c50b37.chunk.js": "/static/js/2.02c50b37.chunk.js",
+    "static/js/2.02c50b37.chunk.js.map": "/static/js/2.02c50b37.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3c5a9576.chunk.css.map": "/static/css/main.3c5a9576.chunk.css.map",
+    "static/js/2.02c50b37.chunk.js.LICENSE.txt": "/static/js/2.02c50b37.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.14e71a87.js",
-    "static/js/2.a3c0fa4c.chunk.js",
+    "static/js/runtime-main.2edb704a.js",
+    "static/js/2.02c50b37.chunk.js",
     "static/css/main.3c5a9576.chunk.css",
-    "static/js/main.acf29206.chunk.js"
+    "static/js/main.b73e4844.chunk.js"
   ]
 }
