@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import LocalizedStrings from "react-localization";
 import { useHistory } from "react-router-dom";
 import styles from "./PrivacyPolicyPageStyles.module.css";
@@ -22,14 +22,14 @@ export const PrivacyPolicyPage = () => {
 
   const [choose, setChoose] = useState(locale);
 
-  const handlePath = (str) => {
+  const handlePath =useCallback( (str) => {
     history.push(`/${str}`);
     setChoose(str);
-  };
+  },[history]);
 
   useEffect(() => {
     path ? handlePath(path) : history.push(`/${locale}`);
-  }, []);
+  }, [handlePath,history,locale,path]);
 
   const handleChoose = (e) => {
     const lang = e.target.value;
