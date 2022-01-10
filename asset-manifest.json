@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kidhabprivacypolicy/static/css/main.3c5a9576.chunk.css",
-    "main.js": "/kidhabprivacypolicy/static/js/main.a2054071.chunk.js",
-    "main.js.map": "/kidhabprivacypolicy/static/js/main.a2054071.chunk.js.map",
+    "main.js": "/kidhabprivacypolicy/static/js/main.e7d91a81.chunk.js",
+    "main.js.map": "/kidhabprivacypolicy/static/js/main.e7d91a81.chunk.js.map",
     "runtime-main.js": "/kidhabprivacypolicy/static/js/runtime-main.e1f7ee96.js",
     "runtime-main.js.map": "/kidhabprivacypolicy/static/js/runtime-main.e1f7ee96.js.map",
     "static/js/2.3d19cb75.chunk.js": "/kidhabprivacypolicy/static/js/2.3d19cb75.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e1f7ee96.js",
     "static/js/2.3d19cb75.chunk.js",
     "static/css/main.3c5a9576.chunk.css",
-    "static/js/main.a2054071.chunk.js"
+    "static/js/main.e7d91a81.chunk.js"
   ]
 }
